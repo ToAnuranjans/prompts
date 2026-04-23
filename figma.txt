@@ -1,31 +1,31 @@
-Use this Figma section as the source design:
-[Figma design section link here]
+Use this Figma design section as the source of truth:
+[Paste Figma design section link here]
 
-Generate a production-ready, exportable `HotelCard` component for a hotel booking application.
+Generate a production-ready React JS component from this design.
 
-Mandatory constraints:
+Constraints:
 
 * React JS only
 * No TypeScript
 * Tailwind CSS only
-* Exportable and reusable across projects
+* Exportable and reusable
 * Multilingual-ready
 * Responsive
-* Clean JSX suitable for production
+* Clean production-quality JSX
 
-What I want you to do:
+What I need:
 
-* Inspect the Figma section and recreate the hotel card UI as closely as possible
-* Convert all visible text content into configurable props or label objects
-* Keep the component brand-agnostic and reusable
-* Make sure the layout supports multilingual expansion
-* Preserve key design elements like image, hotel title, ratings, pricing, discount, badges, amenities, and CTA if present in the design
-* Keep the implementation frontend-team friendly, not over-engineered
+* Inspect the linked Figma section
+* Recreate the UI as closely as possible
+* Convert visible text into props or label objects
+* Keep the component generic, reusable, and easy to move into a shared library
+* Avoid page-specific business logic
+* Keep the implementation simple and frontend-team friendly
 
 Please return:
 
-1. `HotelCard.jsx`
-2. Example usage
-3. Sample data object
-4. Notes on responsive behavior
-5. Notes on any assumptions made from the Figma design
+1. Component JSX
+2. Suggested component name
+3. Example usage
+4. Sample props
+5. Assumptions made from the design
