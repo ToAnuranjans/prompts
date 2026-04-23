@@ -1,0 +1,31 @@
+Use this Figma section as the source design:
+[Figma design section link here]
+
+Generate a production-ready, exportable `HotelCard` component for a hotel booking application.
+
+Mandatory constraints:
+
+* React JS only
+* No TypeScript
+* Tailwind CSS only
+* Exportable and reusable across projects
+* Multilingual-ready
+* Responsive
+* Clean JSX suitable for production
+
+What I want you to do:
+
+* Inspect the Figma section and recreate the hotel card UI as closely as possible
+* Convert all visible text content into configurable props or label objects
+* Keep the component brand-agnostic and reusable
+* Make sure the layout supports multilingual expansion
+* Preserve key design elements like image, hotel title, ratings, pricing, discount, badges, amenities, and CTA if present in the design
+* Keep the implementation frontend-team friendly, not over-engineered
+
+Please return:
+
+1. `HotelCard.jsx`
+2. Example usage
+3. Sample data object
+4. Notes on responsive behavior
+5. Notes on any assumptions made from the Figma design
