@@ -1,0 +1,23 @@
+
+Use prompt like this during demo:
+
+```md
+Use the UI Component Builder agent.
+
+Create a React component from this Figma section:
+
+[Figma link here]
+
+Requirements:
+- Use JavaScript, not TypeScript
+- Use Tailwind CSS
+- First check whether Tailwind is already configured
+- Use the existing project structure and conventions
+- Use Figma MCP server to inspect the design
+- Match exact colors, spacing, typography, border radius, shadows, and layout
+- Make it mobile-first and responsive
+- Make all user-facing text multilingual/i18n-ready
+- Do not hardcode text if i18n exists
+- Do not make assumptions
+- Ask questions if anything is missing or unclear
+- Provide usage example after creating the component
